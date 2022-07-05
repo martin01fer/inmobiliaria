@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;   
+}
+.navbar{
+background-color: #000;
+}
+.Link_ini{
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    opacity: 0.7;
+    color: white;
+    margin-left: 5px;
+    margin-top: 400px;
+    text-decoration: none;
+    position: fixed;
+    border-radius: 20px;
+   } 
+
+.link-logo-redes ul{
+    position: fixed;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.link-logo-redes li{    
+    margin-bottom: 10px;
+    
+}
+.tam-img{
+    width: 100px;
+    height: 100px;
+    line-height: 50%;
+    border-radius: 50px;
+    margin: 5px;
+}
+.logo-redes{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.logo-redes-menu{
+    width: 20px;
+    height: 20px;
+}
+.logo-redes-fxd{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    }
+.logo{
+    display: flex; 
+}
+
+img{
+    width: 100%;
+}
+/*header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;   
+    height: 8em;
+    margin-bottom: 10px;
+    display: flex;    
+    justify-content: center;
+    align-content: space-between;    
+}*/
+h1{
+    color: #fff;   
+}
+a{
+    text-decoration: none;
+}
+article{
+    background-image:url("../img/publi/img-family7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 20px;
+  
+}
+.art-man{
+    background-image:url("../img/publi/img-family10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.art-com{
+    background-image:url("../img/publi/publi8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.art-casu{
+    background-image:url("../img/publi/img-family9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.art-ala{
+    background-image:url("../img/publi/publi7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
+section{
+    margin-top: 20px;
+    border: 2px solid black;
+  
+}
+/*.alto{
+    height: 600px;
+}*/
+article p{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+}
+aside{
+    background-color: green;
+    color:#fff;
+}
+.frame{
+   max-width:  80%;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 25px 0;
+    margin-top: 10px;
+    /*height: 6em;*/
+}
+.bdr-shw{
+   box-shadow: 5px 5px 7px #1e1f20;
+   
+}
+.bdr-shw:hover{
+    box-shadow: none;
+    background-color: #ccc;
+}
